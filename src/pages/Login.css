@@ -1,0 +1,6 @@
+.login-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; justify-content: center; padding: 24px 0; }
+.login-form { max-width: 420px; width: 100%; }
+.login-form h2 { font-size: 22px; }
+.login-form > p { color: var(--text-light-color); margin: 6px 0 20px; }
+.login-form .btn { width: 100%; }
+@media (max-width: 760px) { .login-grid { grid-template-columns: 1fr; gap: 32px; } }
